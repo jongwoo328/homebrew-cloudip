@@ -3,7 +3,7 @@ cask "cloudip" do
   name "cloudip"
   desc "CLI tool that identifies which cloud provider owns a given IP address"
   homepage "https://github.com/jongwoo328/cloudip"
-  version "0.7.1"
+  version "0.7.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "cloudip" do
 
   on_macos do
     on_intel do
-      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/archives/cloudip_#{version}_darwin_amd64.tar.gz"
-      sha256 "3fdfc35627c0ace429dc9e060743b22d8dab3d02aa7d17917ab4579023d522d9"
+      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_darwin_amd64.tar.gz"
+      sha256 "208023fca6cb1283c3b4462704e33ea7b437cef2d59620d3ffdba9a5f2f631c6"
     end
     on_arm do
-      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/archives/cloudip_#{version}_darwin_arm64.tar.gz"
-      sha256 "235659d1a455fb443bf95d8e22fd2b44e39ee9524a9a37c850f4094c079fa5ea"
+      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_darwin_arm64.tar.gz"
+      sha256 "2be1700f593304efcac001971f927c9f223bc1e62b16dd8a0754ca39eff882f0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/archives/cloudip_#{version}_linux_amd64.tar.gz"
-      sha256 "c9716a59f87913dff118ad26f3c8b43027de03eeaae3afa98fc18dc9ee6afd7e"
+      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_linux_amd64.tar.gz"
+      sha256 "a4c10173b38cc18435a27225acf0be7998f6b50ff8e62057b312ea94e5834ab4"
     end
     on_arm do
-      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/archives/cloudip_#{version}_linux_arm64.tar.gz"
-      sha256 "cfe590d9152c603d0f39bd576f1dc53d81d7baa38e030fa4e4157e46e5f40239"
+      url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_linux_arm64.tar.gz"
+      sha256 "edc133229165696c9cc80e581761270078ced8aecb8f286c5892f3e1b03c4c1c"
     end
   end
 
