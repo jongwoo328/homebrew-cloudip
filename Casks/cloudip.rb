@@ -3,7 +3,7 @@ cask "cloudip" do
   name "cloudip"
   desc "CLI tool that identifies which cloud provider owns a given IP address"
   homepage "https://github.com/jongwoo328/cloudip"
-  version "0.7.2"
+  version "0.7.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cloudip" do
   on_macos do
     on_intel do
       url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_darwin_amd64.tar.gz"
-      sha256 "208023fca6cb1283c3b4462704e33ea7b437cef2d59620d3ffdba9a5f2f631c6"
+      sha256 "9d0b89b4b2aad020d945140835c9f55b1844098577210438fede39f1730a06b3"
     end
     on_arm do
       url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_darwin_arm64.tar.gz"
-      sha256 "2be1700f593304efcac001971f927c9f223bc1e62b16dd8a0754ca39eff882f0"
+      sha256 "5f974dca26a3b869a126820489692c76de1787e848906b7ae5293ab7efa96f47"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_linux_amd64.tar.gz"
-      sha256 "a4c10173b38cc18435a27225acf0be7998f6b50ff8e62057b312ea94e5834ab4"
+      sha256 "f9d512b71d6fbf3417563ef0e8ae5f9a3c2522cedff415c3bc2b0d89815238bc"
     end
     on_arm do
       url "https://github.com/jongwoo328/cloudip/releases/download/v#{version}/cloudip_#{version}_linux_arm64.tar.gz"
-      sha256 "edc133229165696c9cc80e581761270078ced8aecb8f286c5892f3e1b03c4c1c"
+      sha256 "3d66f433f3dbc8df0487f3357b5520161b69cb0fcb4aad2bb5eb5f5cbcb71973"
     end
   end
 
